@@ -1,0 +1,36 @@
+# Secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*.tfvars
+!*.tfvars.example
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfplan
+/tmp/
+
+# Reports and dumps
+/tmp/
+trivy-reports/
+k8s-dump-*/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
